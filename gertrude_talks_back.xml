@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/LEAF-VRE/code_snippets/refs/heads/main/CSS/leaf.css" title="LWC" alternate="no"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/LEAF-VRE/code_snippets/refs/heads/main/CSS/leaf.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -21,7 +19,338 @@
             <p>Course materials</p>
          </sourceDesc>
       </fileDesc>
-   </teiHeader>
+   <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#">
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/mervetekgurler/guelph2026/main/gertrude_talks_back.xml?place_annotation_20260519145518056",
+	"type": "oa:Annotation",
+	"dcterms:created": "2026-05-19T18:55:18.056Z",
+	"dcterms:modified": "2026-05-19T18:55:18.056Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/mervetekgurler",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Merve Tekgürler"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/mervetekgurler/guelph2026/main/gertrude_talks_back.xml?place_annotation_20260519145518056#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/mervetekgurler/guelph2026/main/gertrude_talks_back.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "4.2.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/mervetekgurler/guelph2026/main/gertrude_talks_back.xml?place_annotation_20260519145518056#Selector",
+			"@type": "oa:RangeSelector",
+			"oa:hasStartSelector": {
+				"@type": "oa:XPathSelector",
+				"rdf:value": "TEI/text/body/div/div[2]/p[7]/orgName"
+			},
+			"oa:hasEndSelector": {
+				"@type": "oa:XPathSelector",
+				"rdf:value": "TEI/text/body/div/div[2]/p[7]"
+			},
+			"oa:refinedBy": {
+				"@type": "oa:TextPositionSelector",
+				"oa:start": 23,
+				"oa:end": 293
+			}
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "https://sws.geonames.org/11976096",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "4.2.0"
+	},
+	"cwrc:hasCertainty": "cwrc:high",
+	"cwrc:hasPrecision": "cwrc:highCertainty"
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/mervetekgurler/guelph2026/main/gertrude_talks_back.xml?person_annotation_20260519145623241",
+	"type": "oa:Annotation",
+	"dcterms:created": "2026-05-19T18:56:23.241Z",
+	"dcterms:modified": "2026-05-19T18:56:23.241Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/mervetekgurler",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Merve Tekgürler"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/mervetekgurler/guelph2026/main/gertrude_talks_back.xml?person_annotation_20260519145623241#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/mervetekgurler/guelph2026/main/gertrude_talks_back.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "4.2.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/mervetekgurler/guelph2026/main/gertrude_talks_back.xml?person_annotation_20260519145623241#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/div/byline/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://viaf.org/viaf/96994048",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "4.2.0"
+	},
+	"cwrc:hasCertainty": "cwrc:high"
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/mervetekgurler/guelph2026/main/gertrude_talks_back.xml?work_annotation_20260519145746127",
+	"type": "oa:Annotation",
+	"dcterms:created": "2026-05-19T18:57:46.127Z",
+	"dcterms:modified": "2026-05-19T18:57:46.127Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/mervetekgurler",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Merve Tekgürler"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/mervetekgurler/guelph2026/main/gertrude_talks_back.xml?work_annotation_20260519145746127#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/mervetekgurler/guelph2026/main/gertrude_talks_back.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "4.2.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/mervetekgurler/guelph2026/main/gertrude_talks_back.xml?work_annotation_20260519145746127#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/div/byline/title"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "bf:Title",
+		"@id": "http://dbpedia.org/resource/Hamlet",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "4.2.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/mervetekgurler/guelph2026/main/gertrude_talks_back.xml?person_annotation_20260519151138426",
+	"type": "oa:Annotation",
+	"dcterms:created": "2026-05-19T19:11:38.426Z",
+	"dcterms:modified": "2026-05-19T19:11:38.426Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/mervetekgurler",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Merve Tekgürler"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/mervetekgurler/guelph2026/main/gertrude_talks_back.xml?person_annotation_20260519151138426#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/mervetekgurler/guelph2026/main/gertrude_talks_back.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "4.2.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/mervetekgurler/guelph2026/main/gertrude_talks_back.xml?person_annotation_20260519151138426#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/div[2]/byline/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://www.wikidata.org/entity/Q183492",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "4.2.0"
+	}
+}]]>
+        </rdf:Description>
+      </rdf:RDF></xenoData></teiHeader>
    <text>
       <body>
          <div type="story">
@@ -33,7 +362,7 @@
                      <l>Look here, upon this picture, and on this,</l>
                      <l>The counterfeit presentment of two brothers.</l>
                      <l>See, what a grace was seated on this brow;</l>
-                     <l>Hyperion's curls; the front of Jove himself;</l>
+                     <l>Hyperion's curls; the front of <persName role="deity" sameAs="Zeus">Jove</persName> himself;</l>
                      <l n="5">An eye like Mars, to threaten and command;</l>
                      <l>A station like the herald Mercury</l>
                      <l>New-lighted on a heaven-kissing hill;</l>
@@ -61,12 +390,12 @@
                      <l>But mad in craft.</l>
                   </lg>
                </sp>
-               <byline>William Shakespeare, Hamlet (c. 1600, Act III, sc. iv)</byline>
+               <byline><persName key="Shakespeare, William, 1564-1616." ref="http://viaf.org/viaf/96994048" cert="high" type="real">William Shakespeare</persName>, <title key="Hamlet" ref="http://dbpedia.org/resource/Hamlet">Hamlet</title> (c. 1600, Act III, sc. iv)</byline>
             </div>
 
             <div type="response">
                <p>I always thought it was a mistake, calling you Hamlet. I mean, what kind of name
-                  is that for a young boy? It was your father�s idea. Nothing would do but that you
+                  is that for a young boy? It was your father's idea. Nothing would do but that you
                   had to be called after him? Selfish. The other kids at school used to tease the
                   life out of you. The nicknames! And those terrible jokes about pork. </p>
                <p>I wanted to call you George.</p>
@@ -76,23 +405,22 @@
                <p>Yes, I've seen those pictures, thank you very much. I know your father was
                   handsomer than Claudius. High brow, aquiline nose and so on, looked great in
                   uniform. But handsome isn't everything, especially in a man, and far be it from me
-                  to speak ill of the dead, but I think it�s about time I pointed out to you that
+                  to speak ill of the dead, but I think it's about time I pointed out to you that
                   your dad just wasn't a whole lot of fun. Noble. Sure, I grant you. But Claudius,
                   well, he likes a drink now and then. He appreciates a decent meal. He enjoys a
-                  laugh, know what I mean? You don�t always have to be tiptoeing around because of
+                  laugh, know what I mean? You don't always have to be tiptoeing around because of
                   some holier-than-thou principle or something.</p>
                <p>By the way, darling, I wish you wouldn't call your stepdad the bloat king. He
                   does have a slight weight problem, and it hurts his feelings.</p>
                <p>The rank sweat of what? My bed is certainly not enseamed, whatever that might be!
                   A nasty sty, indeed! Not that it's any of your business, but I change those sheets
-                  twice a week, which is more than you do, judging from that student slum pigpen in
-                  Wittenberg. I'll certainly never visit you there again without prior warning! I
+                  twice a week, which is more than you do, judging from that <orgName role="academic">student slum pigpen in Wittenberg</orgName>. I'll certainly never visit you there again without prior warning! I
                   see that laundry of yours when you bring it home, and not often enough either, by
                   a long shot! Only when you run out of black socks.</p>
                <p>And let me tell you, everyone sweats at a time like that, as you'd find out if
                   you ever gave it a try. A real girlfriend would do you a heap of good. Not like
-                  that pasty-faced what�s-her-name, all trussed up like a prizes turkey in those
-                  touch-me-not corsets of hers. If you ask me, there�s something off about that
+                  that pasty-faced what's-her-name, all trussed up like a prizes turkey in those
+                  touch-me-not corsets of hers. If you ask me, there's something off about that
                   girl. Borderline. Any little shock could push her right over the edge.</p>
                <p>Go get yourself someone more down-to-earth. Have a nice roll in the hay. Then you
                   can talk to me about nasty sties.</p>
@@ -109,7 +437,7 @@
                   been so rude to him at the dinner table!</p>
                <p>If I'd known that, I could have put you straight in no time flat. It wasn't
                   Claudius, darling. It was me.</p>
-               <byline>Margaret Atwood, Gertrude Talks Back (1993)</byline>
+               <byline><persName key="Margaret Atwood" ref="http://www.wikidata.org/entity/Q183492">Margaret Atwood</persName>, Gertrude Talks Back (1993)</byline>
             </div>
          </div>
       </body>
