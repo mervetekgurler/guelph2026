@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/LEAF-VRE/code_snippets/refs/heads/main/CSS/leaf.css" title="LWC" alternate="no"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Vâsıf 1789-1794, 172 <date when-custom="hijri year">(1203)</date></p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <head><title type="subheading">Âmeden-i Elçi-yi Leh</title></head>
+         <p>Hudûd-ı Devlet-i ʻaliyye'ye mücâvir olan fırak-ı nasârâdan Leh cumhûru bu esnâda
+            Devlet-i ʻaliyyeye mütemahhız-ı dost geçinüp, umûr-ı mülkiyyeye dâyir baʻzı vesâyâ-yı
+            hafiyye ile bir elçi irsâlini miyânelerinde tasmîm ve Moskovlu ile muhârebe olunduğuna
+            binâ’en yollar mesdûd olup, elçilerini âhar tarafdan hudûd-ı İslâmiyye'ye idhâl fikrinde
+            olduklarını niyâz-nâmeleriyle ifâde vü tefhîm eylediklerine binâ’en, elçi-yi mesfûr
+            Nemçe memleketinden murûr ile Venedik Körfezi'ne ve andan Gördüs İskelesi'ne gelüp,
+            baʻdehû berren Âsitâne'ye gelmesi tasvîb ve mihmândâr sûretinde hâcegân-ı Divân-ı
+            hümâyûn'dan İbdâl Mühürdârı Kâmilî Mustafâ Efendi taʻyîn ve Mâliye Vekâleti ile tatyîb
+            olunup, lâzım gelan yol emriyle Baş-muhâsebe'den muhrec, taʻyînât sûreti yedine i‘tâ ve
+            bir ân akdem hareket ile lâzıme-i mihmân-nevâzîyi icrâ etmek tarafına tenbîh ü îsâ
+            olundu.</p>
+      </body>
+   </text>
+</TEI>
