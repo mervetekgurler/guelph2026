@@ -42,7 +42,7 @@
 					<lb facs="#facs_2_l_19" n="N005"/>can writing by women be read in the same way by men as it can
 					<lb facs="#facs_2_l_20" n="N006"/>by women, and vice versa. For many women, Heathcliff is a
 					<lb facs="#facs_2_l_21" n="N007"/>romantic hero; for many men, he is a posturing oaf they'd like
-					<lb facs="#facs_2_l_22" n="N008"/>to punch in the nose. For many men, The Ginger Man's Sebastian
+					<lb facs="#facs_2_l_22" n="N008"/>to punch in the nose. For many men, <title key="The Ginger Man" ref="http://www.wikidata.org/entity/Q7736458" ana="webannotation:http://temp.lincsproject.ca/4ysUYz4WgZN">The Ginger Man's</title> Sebastian
 					<lb facs="#facs_2_l_23" n="N009"/>Dangerfield is an energy-packed rebel; for many women, he is
 					<lb facs="#facs_2_l_24" n="N010"/>an immature and tiresome wife-beater. Paradise Lost reads dif-
 				</p>
@@ -613,6 +613,95 @@
         "type": "crm:E74_Group",
         "label": "The Paris Review",
         "description": "New York-based English-language literary magazine"
+    },
+    "P2_has_type": [
+        "oa:identifying"
+    ]
+}]]>
+				
+</rdf:Description>
+				
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/" rdf:about="http://temp.lincsproject.ca/4ysUYz4WgZN">
+<![CDATA[{
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld",
+        "https://www.cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
+        "https://wa.lincsproject.ca/v1/ns/anno.jsonld"
+    ],
+    "id": "http://temp.lincsproject.ca/4ysUYz4WgZN",
+    "type": [
+        "Annotation",
+        "crm:E33_Linguistic_Object"
+    ],
+    "motivation": "oa:identifying",
+    "created": "2026-05-20T14:24:49.607Z",
+    "creator": {
+        "id": "https://github.com/mervetekgurler",
+        "type": "crm:E21_Person",
+        "name": "Merve Tekgürler"
+    },
+    "generator": {
+        "id": "https://nerve.lincsproject.ca",
+        "type": [
+            "Software",
+            "crm:E73_Information_Object"
+        ],
+        "P16_used_specific_object": "https://nerve.lincsproject.ca",
+        "name": "NERVE",
+        "softwareVersion": "0.2.1"
+    },
+    "target": {
+        "id": "/target/fPyvxl4neha",
+        "type": [
+            "SpecificResource",
+            "crm:E73_Information_Object"
+        ],
+        "source": {
+            "id": "https://raw.githubusercontent.com/mervetekgurler/guelph2026/main/WWaW_Atwood-Intro.xml",
+            "type": "crm:D1_Digital_Object",
+            "format": "application/tei+xml",
+            "language": "en",
+            "P1_is_identified_by": {
+                "id": "https://raw.githubusercontent.com/mervetekgurler/guelph2026/main/WWaW_Atwood-Intro.xml/title",
+                "type": "crm:E33_E41_Linguistic_Appellation",
+                "title": "WWaW_Atwood-Intro"
+            }
+        },
+        "selector": [
+            {
+                "id": "/target/fPyvxl4neha/selector/textPosition/ubD5koAtVLv",
+                "type": [
+                    "TextPositionSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "start": 1399,
+                "end": 1415,
+                "refinedBy": {
+                    "id": "/target/fPyvxl4neha/selector/textQuote/OEQQDctbO6y",
+                    "type": [
+                        "TextQuoteSelector",
+                        "crm:E33_Linguistic_Object"
+                    ],
+                    "exact": "The Ginger Man's",
+                    "prefix": " For many men,",
+                    "suffix": "Sebastian\n\t\t\t\t\tDangerfield is an energy-packed rebel; for many women, he is\n\t\t\t\t\tan immature and tiresome wife-beater"
+                }
+            },
+            {
+                "id": "/target/fPyvxl4neha/selector/css/q6fmYx1QjGr",
+                "type": [
+                    "CssSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "value": "[ana~=webannotation:http://temp.lincsproject.ca/4ysUYz4WgZN]"
+            }
+        ]
+    },
+    "body": {
+        "id": "http://www.wikidata.org/entity/Q7736458",
+        "type": "frbroo:F1",
+        "label": "The Ginger Man",
+        "description": "1955 novel by J. P. Donleavy"
     },
     "P2_has_type": [
         "oa:identifying"
