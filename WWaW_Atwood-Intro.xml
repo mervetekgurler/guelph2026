@@ -301,7 +301,7 @@
 				<p>
 					<lb facs="#facs_8_l_19" n="N001"/>This is not the only collection of such writers that could be
 					<lb facs="#facs_8_l_20" n="N002"/>made. It is limited in scope by the writers actually interviewed
-					<lb facs="#facs_8_l_21" n="N003"/>to date by The Paris Review. Thus, although there are writers
+					<lb facs="#facs_8_l_21" n="N003"/>to date by <orgName key="The Paris Review" ref="http://www.wikidata.org/entity/Q3988628" ana="webannotation:http://temp.lincsproject.ca/BT2j4TLee2k">The Paris Review</orgName>. Thus, although there are writers
 					<lb facs="#facs_8_l_22" n="N004"/>from the United States, Ireland, England, Denmark, and South
 					<lb facs="#facs_8_l_23" n="N005"/>Africa, there are none here from, for instance, India or Australia
 					<lb facs="#facs_8_l_24" n="N006"/>or Canada or Latin America: no Alice Munro, no Anita Desai,
@@ -702,6 +702,95 @@
         "type": "frbroo:F1",
         "label": "The Ginger Man",
         "description": "1955 novel by J. P. Donleavy"
+    },
+    "P2_has_type": [
+        "oa:identifying"
+    ]
+}]]>
+				
+</rdf:Description>
+				
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/" rdf:about="http://temp.lincsproject.ca/BT2j4TLee2k">
+<![CDATA[{
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld",
+        "https://www.cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
+        "https://wa.lincsproject.ca/v1/ns/anno.jsonld"
+    ],
+    "id": "http://temp.lincsproject.ca/BT2j4TLee2k",
+    "type": [
+        "Annotation",
+        "crm:E33_Linguistic_Object"
+    ],
+    "motivation": "oa:identifying",
+    "created": "2026-05-20T14:28:16.660Z",
+    "creator": {
+        "id": "https://github.com/mervetekgurler",
+        "type": "crm:E21_Person",
+        "name": "Merve Tekgürler"
+    },
+    "generator": {
+        "id": "https://nerve.lincsproject.ca",
+        "type": [
+            "Software",
+            "crm:E73_Information_Object"
+        ],
+        "P16_used_specific_object": "https://nerve.lincsproject.ca",
+        "name": "NERVE",
+        "softwareVersion": "0.2.1"
+    },
+    "target": {
+        "id": "/target/5e3iDSvbxbT",
+        "type": [
+            "SpecificResource",
+            "crm:E73_Information_Object"
+        ],
+        "source": {
+            "id": "https://raw.githubusercontent.com/mervetekgurler/guelph2026/main/WWaW_Atwood-Intro.xml",
+            "type": "crm:D1_Digital_Object",
+            "format": "application/tei+xml",
+            "language": "en",
+            "P1_is_identified_by": {
+                "id": "https://raw.githubusercontent.com/mervetekgurler/guelph2026/main/WWaW_Atwood-Intro.xml/title",
+                "type": "crm:E33_E41_Linguistic_Appellation",
+                "title": "WWaW_Atwood-Intro"
+            }
+        },
+        "selector": [
+            {
+                "id": "/target/5e3iDSvbxbT/selector/textPosition/XE47gltfTbX",
+                "type": [
+                    "TextPositionSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "start": 14005,
+                "end": 14021,
+                "refinedBy": {
+                    "id": "/target/5e3iDSvbxbT/selector/textQuote/p28MPhs87Hp",
+                    "type": [
+                        "TextQuoteSelector",
+                        "crm:E33_Linguistic_Object"
+                    ],
+                    "exact": "The Paris Review",
+                    "prefix": " It is limited in scope by the writers actually interviewed\n\t\t\t\t\tto date by",
+                    "suffix": " Thus, although there are writers\n\t\t\t\t\tfrom the United States, Ireland, England, Denmark, and South\n\t\t\t\t\tAfrica, there are none here from, for instance, India or Australia\n\t\t\t\t\tor Canada or Latin America: no Alice Munro, no Anita Desai,\n\t\t\t\t\tno Isabel Allende"
+                }
+            },
+            {
+                "id": "/target/5e3iDSvbxbT/selector/css/UUlRkqoQxez",
+                "type": [
+                    "CssSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "value": "[ana~=webannotation:http://temp.lincsproject.ca/BT2j4TLee2k]"
+            }
+        ]
+    },
+    "body": {
+        "id": "http://www.wikidata.org/entity/Q3988628",
+        "type": "crm:E74_Group",
+        "label": "The Paris Review",
+        "description": "New York-based English-language literary magazine"
     },
     "P2_has_type": [
         "oa:identifying"
