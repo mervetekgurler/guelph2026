@@ -21,7 +21,7 @@
             },
             {
                 "xpath": "//persName[@key=\"Katherine Anne Porter\"]",
-                "label": "KNP"
+                "label": "KAP"
             },
             {
                 "xpath": "//persName[@key=\"Mary McCarthy\"]",
